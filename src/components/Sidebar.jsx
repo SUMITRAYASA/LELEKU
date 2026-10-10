@@ -68,7 +68,7 @@ function Sidebar({ isOpen = true, onClose }) {
             </h1>
 
             <p className="text-[10px] font-medium tracking-[2px] text-[#8BBB92]">
-              FARM MANAGEMENT
+              Pencatatan Ternak Lele
             </p>
           </div>
         </div>
