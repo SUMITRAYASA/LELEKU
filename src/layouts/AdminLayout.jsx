@@ -45,7 +45,7 @@ function AdminLayout() {
             </h1>
 
             <p className="text-xs text-[#718780]">
-              Farm Management
+              Pencatatan Ternak Lele
             </p>
           </div>
         </header>
