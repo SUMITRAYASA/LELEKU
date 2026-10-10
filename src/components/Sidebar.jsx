@@ -64,7 +64,7 @@ function Sidebar({ isOpen = true, onClose }) {
 
           <div>
             <h1 className="text-xl font-bold tracking-tight">
-              TambakLele
+              LELEKU
             </h1>
 
             <p className="text-[10px] font-medium tracking-[2px] text-[#8BBB92]">
