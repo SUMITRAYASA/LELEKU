@@ -77,7 +77,7 @@ function DashboardPage() {
         <div className="relative z-10 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[2px] text-white/70">
-              Monitoring Tambak
+              Monitoring Semua Kolam
             </p>
 
             <h2 className="mt-2 text-2xl font-bold">
@@ -85,7 +85,7 @@ function DashboardPage() {
             </h2>
 
             <p className="mt-2 max-w-xl text-sm text-white/80">
-              Pantau kondisi tambak dan kelola data kolam
+              Pantau kondisi Kolam dan kelola data Kolam
               budidaya lele kamu.
             </p>
           </div>
