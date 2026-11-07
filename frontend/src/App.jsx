@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import DashboardLayout from "./layouts/DashboardLayout";
 
@@ -8,7 +8,7 @@ import Pertumbuhan from "./pages/Pertumbuhan";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<DashboardLayout />}>
           <Route index element={<Navigate to="/kolam" replace />} />
@@ -17,7 +17,7 @@ function App() {
           <Route path="pertumbuhan" element={<Pertumbuhan />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
